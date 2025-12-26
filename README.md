@@ -75,7 +75,7 @@ graph TD;
   Gateway -->|If Fake| Reject[400 Bad Request];
   
   DB -->|Real-time Feed| Admin[Admin Dashboard];
-  '''
+  
 
 ## 📸 Proof of Concept (Prototype v1)
 *Below is the live execution of the A.E.G.I.S. Vision Engine detecting a vehicle and assigning "TRAFFIC_DEPT" protocol in <200ms.*
