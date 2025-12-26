@@ -72,7 +72,7 @@ graph TD;
   Gateway -->|If Verified| DB[(MongoDB Atlas)];
   Gateway -->|If Fake| Reject[400 Bad Request];
   
-  DB -->|Real-time Feed| Admin[Admin Dashboard];
+  DB -->|Real-time Feed| Admin[Admin Dashboard];```
 
   ---
 
