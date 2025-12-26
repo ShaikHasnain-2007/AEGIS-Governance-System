@@ -56,6 +56,8 @@ The system assigns a dynamic **Severity Score** based on the visual threat level
 
 ## ⚙️ System Architecture (Microservices)
 
+## ⚙️ System Architecture (Microservices)
+
 ```mermaid
 graph TD;
   User[Citizen App] -->|1. Upload Photo + GPS| Gateway[Node.js API Gateway];
@@ -72,9 +74,8 @@ graph TD;
   Gateway -->|If Verified| DB[(MongoDB Atlas)];
   Gateway -->|If Fake| Reject[400 Bad Request];
   
-  DB -->|Real-time Feed| Admin[Admin Dashboard];```
-
-  ---
+  DB -->|Real-time Feed| Admin[Admin Dashboard];
+  '''
 
 ## 📸 Proof of Concept (Prototype v1)
 *Below is the live execution of the A.E.G.I.S. Vision Engine detecting a vehicle and assigning "TRAFFIC_DEPT" protocol in <200ms.*
