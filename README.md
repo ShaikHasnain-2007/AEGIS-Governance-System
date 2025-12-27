@@ -80,4 +80,12 @@ graph TD;
 
 ![System Demo](demo_result.png)
 
----
+---## 👥 Team Contribution
+
+```mermaid
+pie title Project Work Distribution
+    "Shaik Hasnain (AI & Architecture)" : 30
+    "Naga Ajitesh M (Data Engineer)" : 25
+    "N. Rohit Subrahmanyam (Frontend & UI)" : 25
+    "S. Ghouse Mohiidin Shah (System Analyst)" : 20
+```
